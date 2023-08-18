@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyu_xuan_dic=self.webpackChunkyu_xuan_dic||[]).push([[252],{1764:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/YuXuanDic/blog/tags/facebook","allTagsPath":"/YuXuanDic/blog/tags","count":1}')}}]);
