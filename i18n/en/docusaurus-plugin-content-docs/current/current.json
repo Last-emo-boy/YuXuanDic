@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.YUC-001-010": {
+    "message": "YUC-001-010",
+    "description": "The label for category YUC-001-010 in sidebar tutorialSidebar"
+  }
+}

@@ -1,0 +1,21 @@
+#
+# Your Crowdin credentials
+#
+"project_id": "608785"
+"api_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6IjFhNjEyNzUzZTJhZGY4MzBkNDYwY2NmYmYzYzlhZTc5ZjM2NGZmMjhhZTc2ZDkwM2JiYWE0YTQ3ZTQzZWJmYjE0OTZjNzI0ZWQ0NWUyMGM5IiwiaWF0IjoxNjkyMzM3NzQ5LjgyMzkyLCJuYmYiOjE2OTIzMzc3NDkuODIzOTIzLCJleHAiOjE3MjM4NzM3NDkuNzQyMTc0LCJzdWIiOiIxNTYyMzg1OSIsInNjb3BlcyI6WyJwcm9qZWN0Il0sImRvbWFpbiI6bnVsbCwiYXNzb2NpYXRpb25zIjpbIioiXSwic2Vzc2lvbiI6MH0.JYrOygLbnr7B1mUkLIHwlRonIGCWz7srlKGdBtK8nRDqgn6Z95y28gzkPnX5xDZquexKnzeaoZwce9GELVC7DHF5BBhc1qLegKb6QLpOUmtXqu_a_DY4aDP12fYpRjCaeCVmCNRBx6ojMbAV0TYsnTDtQexGOSBHuBT0g_6StAjKuEDGzaTLEeYj8hVWYFPrbU36seZ-lI2Rq5rePPjsx_0ybIB-fN3hYpvxy06P7SqCsDu0egoZq0SJ3E7AwWLtZhThWaGlaYYbE4d3mInzkXKidNV3EQ6tcCla6TZkBxEf-oBtui1ZIdIKtB6UqqKzobwMbzkoqoHvyoBJU6zzluPzKjJqL9099TAggNBWbW-cD-_uc0BEkYISBREcPiQZF_Lvn8fGgKlDnIy4hf70dzYIHtDy9gbWq3-ZU2NTg5zDgisH5HC2sKEDIW8WowkAXOzbAfJMJkqixz7P-D93HROlXegize6PiU1XEWqTL774lH6ygN06b6N1bOyKj5gEATfdXVu50kxo6wS_QgALuqUs00vz_FoXMQ0vBlmO-WgkANE432pgiwXZr0PEyxjO_MQRnSkPGlYA9s_VtfcjoNBZh6-B75cAddlrqG75k5zZ3_1-BRiWFTvui95_iufpdfRPBw546wdHO2ZoZ6edz03gMTdUYTNI2ZoA0zsX_4c"
+"base_path": "."
+"base_url": "https://api.crowdin.com"
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": "true"
+
+#
+# Files configuration
+#
+files:
+  # Markdown 文档文件 
+  - source: /docs/**/*
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%
